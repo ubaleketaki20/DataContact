@@ -1,0 +1,11 @@
+customer_id,customer_name,email,age,city
+1,John Doe,john@email.com,30,New York
+2,Jane Smith,jane@email.com,25,Los Angeles  
+3,Bob Johnson,,35,Chicago
+4,Alice Brown,alice@email.com,28,Houston
+5,Charlie Davis,charlie@email.com,32,Phoenix
+6,Eva Wilson,eva@email.com,29,Philadelphia
+7,,diana@email.com,31,San Antonio
+8,Frank Miller,frank@email.com,27,San Diego
+9,Grace Lee,grace@email.com,33,Dallas
+10,Henry Taylor,john@email.com,26,San Jose
