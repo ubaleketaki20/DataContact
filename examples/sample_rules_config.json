@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "type": "completeness",
+      "name": "customer_name_completeness",
+      "columns": ["customer_name"],
+      "threshold": 5.0,
+      "description": "Customer names should be at least 95% complete",
+      "severity": "error"
+    },
+    {
+      "type": "completeness", 
+      "name": "email_completeness",
+      "columns": ["email"],
+      "threshold": 10.0,
+      "description": "Email addresses should be at least 90% complete",
+      "severity": "warning"
+    },
+    {
+      "type": "uniqueness",
+      "name": "customer_id_uniqueness",
+      "columns": ["customer_id"],
+      "description": "Customer IDs must be unique",
+      "severity": "error"
+    },
+    {
+      "type": "uniqueness",
+      "name": "email_uniqueness",
+      "columns": ["email"],
+      "description": "Email addresses should be unique",
+      "severity": "warning"
+    }
+  ]
+}

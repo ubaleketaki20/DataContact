@@ -1,0 +1,2 @@
+[console_scripts]
+datacontact-quality = datacontact.cli:main
